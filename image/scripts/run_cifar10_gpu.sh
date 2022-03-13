@@ -23,7 +23,7 @@ task_name=cifar10
 # 500: 95.20 +- 0.09
 # 250: 94.57 +- 0.96
 
-for sup_size in 4000 2000 1000 500 250;
+for sup_size in -1;
 do
   python main.py \
     --use_tpu=False \

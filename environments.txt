@@ -10,3 +10,44 @@ bash scripts/run_cifar10_gpu.sh --aug_copy=10
 
 cd uda_folder
 git pull origin master
+
+90% career
+10% business development
+
+career::
+
+* data structure
+* modeling ( network, building, layer)
+
+optimzation
+
+coding/data structure
+statis,
+probablity
+
+FANG ::  ( 2Y)
+
+idea : self write
+idea = > design
+
+sold
+
+team =>
+
+
+
+process:
+
+simple 1
+
+human
+
+process 2
+
+
+
+
+
+prepro
+
+
