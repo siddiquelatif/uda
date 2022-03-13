@@ -6,3 +6,7 @@ pip install Pillow
 cd image
 bash scripts/preprocess.sh --aug_copy=10
 bash scripts/run_cifar10_gpu.sh --aug_copy=10
+
+
+cd uda_folder
+git pull origin master
