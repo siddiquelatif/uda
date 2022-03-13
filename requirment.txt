@@ -1,0 +1,9 @@
+scipy
+numpy
+six
+tensorflow
+absl-py
+
+
+#
+Pillow

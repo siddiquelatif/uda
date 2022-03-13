@@ -74,6 +74,7 @@ Alternatively, you can generate the augmented examples yourself by running
 ```shell
 AUG_COPY=100
 bash scripts/preprocess.sh --aug_copy=${AUG_COPY}
+bash scripts/preprocess.sh --aug_copy=10
 ```
 
 ### CIFAR-10 with 250, 500, 1000, 2000, 4000 examples on GPUs
@@ -88,6 +89,7 @@ GPU command:
 # 500: 95.20 +- 0.09
 # 250: 94.57 +- 0.96
 bash scripts/run_cifar10_gpu.sh --aug_copy=${AUG_COPY}
+bash scripts/run_cifar10_gpu.sh --aug_copy=10
 ```
 
 ### SVHN with 250, 500, 1000, 2000, 4000 examples on GPUs

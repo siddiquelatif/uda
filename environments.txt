@@ -1,0 +1,5 @@
+conda create -n uda_py_27 python=2.7 tensorflow=1.13.1
+
+pip install Pillow
+
+bash scripts/preprocess.sh --aug_copy=10
