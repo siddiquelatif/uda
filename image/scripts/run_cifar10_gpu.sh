@@ -35,8 +35,9 @@ do
     --train_batch_size=64 \
     --data_dir=data/proc_data/${task_name} \
     --model_dir=ckpt/cifar10_gpu_${sup_size} \
-    --train_steps=500000 \
+    --train_steps=120000 \
     --uda_confidence_thresh=0.8 \
     --uda_softmax_temp=0.4 \
     $@
 done
+#--train_steps=500000
